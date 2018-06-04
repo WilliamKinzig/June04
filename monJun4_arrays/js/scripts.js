@@ -1,10 +1,8 @@
 $(document).ready(function() {
 
-    var alerts = ["h1", "p", "img"];
+    var flavors = ["chocolate", "vanilla", "strawberry"];
 
-    alerts.forEach(function(element){
-      $(element).click(function() {
-        alert("This is a "+element+".");
-      });
+    flavors.forEach(function(element){
+      $("#list").append("<li>"+element+"</li>");
   })
 });
