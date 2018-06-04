@@ -1,0 +1,9 @@
+//While loop example
+var x = 3;
+var ans = 0;
+var itersLeft = x;
+while (itersLeft != 0) {
+  ans = ans + x;
+  itersLeft = itersLeft - 1;
+}
+console.log(string(x) + '*' + string(x) + '=' + string(ans));
